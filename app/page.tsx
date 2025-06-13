@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Products from '../components/Products';
+import CustomerStats from '../components/CustomerStats';
 
 export const metadata: Metadata = {
   title: 'SHAIRE - Luxury Fashion & Lifestyle',
@@ -21,6 +22,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Products />
+      <CustomerStats />
     </main>
   );
 }
